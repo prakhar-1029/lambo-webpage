@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lamborghini</title>
+</head>
+<link rel="stylesheet" href="project/style.css"> 
+<style>
+    /*CSS Reset*/
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('lamborghini-2.jpg');
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 30px;
+        font-style: serif;
+        font-size: 23px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .left img{
+        width: 160px;
+        height: 90px;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid transparent;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px solid transparent;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font size: 28px;
+    }
+    .navbar li a{
+        color:whitesmoke;
+        padding: 18px 15px;
+        text-decoration: none;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color:royalblue;
+    }
+    .btn{
+        margin:0px 9px;
+        color:white;
+        padding: 16px 15px;
+        cursor:pointer;
+        background-color:transparent;
+    }
+    .btn:hover{
+        background-color:grey;
+    }
+    .container{
+        
+        margin: 430px 40px;
+        padding :20px 25px;
+        text-align-last:center;
+        font-size: 45px;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <!--left box for logo-->
+            <img src="lambo_logo.jpeg">
+            <div>LAMBORGHINI</div>
+        </div>
+        <div class="mid">
+            <!--mid box for navigation  bar-->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Models</a></li>
+                <li><a href="#">Showrooms</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right"> 
+            <!--right box for buttons-->
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+       <div class="container">
+           EXPECT THE UNEXPECTED.
+       </div>
+    </header>
+</body>
+</html>
